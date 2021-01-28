@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-sm-4" style="margin-top: 11rem;">
+        <h2>We make it super simple</h2>
+        <img class="img-fluid"  src="./../../assets/collect_img-video.png" >
+    </div>
+    
+    <div class="offset-sm-4 col-sm-4">
+        <div class="card">
+            <div class="card-body ">
+                <h5 class="card-title align-middle">Eligibility Calculator</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Monthly Income</h6>
+                <mat-slider thumbLabel style="width:300px"></mat-slider>
+                <h6 class="card-subtitle mb-2 text-muted">Monthly Expense</h6>
+                <mat-slider thumbLabel style="width:300px"></mat-slider>
+                <h6 class="card-subtitle mb-2 text-muted">Repayment Tenure</h6>
+                <mat-form-field appearance="fill">
+                    <!-- <mat-label>Select</mat-label> -->
+                    <mat-select>
+                      <mat-option value="one">6 Months</mat-option>
+                      <mat-option value="two">12 Months</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                  <div class="row">
+                    <h6 class="card-subtitle mb-2 text-muted">Do you have existing loans?</h6>
+                    <mat-slide-toggle></mat-slide-toggle>
+                  </div>
+                  <h6 class="card-subtitle mb-2 text-muted">EMI of existing loan(Optional)</h6>
+                  <mat-form-field appearance="fill">
+                    <mat-label>Amount</mat-label>
+                    <input matInput>
+                  </mat-form-field>
+            </div>
+          </div>
+
+    </div>
+</div>

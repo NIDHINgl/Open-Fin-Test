@@ -1,0 +1,21 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid ">
+        <div class="row justify-content-between" style="width: 100%">
+            <div class="navbar-header col-sm-2">
+                <img  src="./../../assets/logo.png" >
+              </div>
+              <div class="col-sm-offset-4 col-sm-6">
+                <ul class="nav navbar-nav" style="display: flex;
+                flex-direction: row;
+                align-items: flex-start">
+                    <li class="col-sm-2" *ngFor="let navNames of navFields">{{navNames}}</li>
+                    
+                    <li class="col-sm-1">Login</li>
+                    <li class="col-sm-3">Get Started</li>
+                  </ul>
+              </div>
+        </div>
+      
+      
+    </div>
+  </nav>
