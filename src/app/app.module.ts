@@ -11,6 +11,7 @@ import {MatSliderModule} from '@angular/material/slider';
 import {MatFormFieldModule} from '@angular/material/form-field'; 
 import {MatSlideToggleModule} from '@angular/material/slide-toggle'; 
 import {MatSelectModule} from '@angular/material/select';
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import {MatSelectModule} from '@angular/material/select';
     MatFormFieldModule,
     MatSlideToggleModule,
     MatSelectModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
