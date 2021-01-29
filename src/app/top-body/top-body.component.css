@@ -55,7 +55,7 @@
   color: #212529;
 }
 .custom-form select {
-  background: url("./../assets/downanglearrow1.svg") no-repeat right #fff;
+  background: url("./../../assets/downanglearrow1.svg") no-repeat right #fff;
   -webkit-appearance: none;
   background-position-x: calc(100% - 15px);
   background-size: 12px;
