@@ -1,0 +1,7 @@
+.bg {
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  background-position-y: top;
+  height: 100%;
+}

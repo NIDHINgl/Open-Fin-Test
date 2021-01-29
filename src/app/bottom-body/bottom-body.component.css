@@ -1,0 +1,49 @@
+.hr {
+  border: 3px solid #707070;
+  border-radius: 5px;
+}
+.data-card {
+  width: 391px;
+  height: 253px;
+  border-radius: 25px;
+  margin-top: 5%;
+}
+
+.card-body-content {
+  width: 90%;
+  align-self: center;
+  margin-top: 5%;
+}
+
+.card-image {
+  width: 90px;
+  height: 90px;
+}
+
+.card-body-data {
+  margin-top: 5%;
+  left: 0;
+  position: absolute;
+}
+
+.card-para {
+  color: #999999;
+}
+
+.get-acc-button {
+  border-radius: 25px;
+  border-width: 2px;
+  border-color: #663399;
+  color: #663399;
+}
+
+.data-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.grid3-content {
+  color: #777777;
+}

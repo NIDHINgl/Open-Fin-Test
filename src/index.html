@@ -13,30 +13,39 @@
   
 </head>
 <style type="text/css">
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
 }
-  .bgimg {
-      background-image: url('./assets/circle.svg');
-      background-repeat: no-repeat;
-      
-      background-attachment: fixed;
-      background-position: left top; 
-      width :100%;
-      height: 100%;
-  }
-  .bgimg {
-      background-image: url('./assets/blob-small.svg');
-      background-repeat: no-repeat;
-      
-      background-attachment: fixed;
-      background-position: right 20px bottom 10px;
-      width :100%;
-      height: 100%;
-  }
   </style>
 <body class="mat-typography">
-  <app-root style="width:100%;display:inline-block "></app-root>
+  <app-root></app-root>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script>
+        $(document).ready(function(){
+           var $navHeight = $("nav").height() + 15 ;
+           $("main").css("margin-top",-$navHeight);
+        });
+        $(function () { 
+            var navbar = $(".navbar"); 
+            $(window).scroll(function () { 
+                var scroll = $(window).scrollTop(); 
+  
+                if (scroll > 0) { 
+                    navbar.removeClass('bg-transparent').addClass("bg-white");
+                    $(".navbar-logo ").css("width","60px");
+                    
+                } else { 
+                   navbar.removeClass("bg-white").addClass('bg-transparent'); 
+                   $(".navbar-logo ").css("width","80px");
+                } 
+            }); 
+        }); 
+
+    </script>
 </body>
 </html>
